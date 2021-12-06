@@ -1,14 +1,63 @@
-html, body{
+* {
     margin: 0;
     padding: 0;
-}
-
-* {
     box-sizing: border-box;
     font-family: "Lucida Console", Sans-serif;
 }
 
-nav {
-    display: inline-block;
-    column-gap: 24px;
+.container {
+    width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: grid;
+    grid-template-rows: 80px 1fr 80px;
+}
+
+main,
+footer,
+header {
+    padding: 24px 10vw;
+}
+
+header,footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+header{
+    top: 5vh;
+    right: 0px;
+}
+
+footer{
+    bottom: 5vh;
+}
+
+
+.page{
+    display: grid;
+    padding-top: 20%;
+    grid-template-rows: 100px 1fr;
+    height: 100vh;
+    gap: 24px;
+}
+
+.page h1{
+    font-size: 60px;
+}
+nav{
+    display: flex;
+    gap: 88px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 100;
+    font-weight: bold;
+    color: black;
 }

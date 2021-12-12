@@ -16,5 +16,17 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.0",
     "vite": "^2.6.4"
-  }
+  },
+  "description": "- 是一个前端(显而易见👻)\r - 他是依托于Nova社团的官网",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N0I0C0K/SUST-Nova.git"
+  },
+  "author": "N0I0C0K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N0I0C0K/SUST-Nova/issues"
+  },
+  "homepage": "https://github.com/N0I0C0K/SUST-Nova#readme"
 }
